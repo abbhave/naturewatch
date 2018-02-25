@@ -39,7 +39,7 @@ left:160px;top:200px;width:950px;height:800px;'-->
 <table onload="setTitle('Yrdy2')" border="0" cellspacing="4" cellpadding="4" width="100%">
 <script>$( "#imagedialog" ).dialog({ autoOpen: false });</script>
 <?php
-$link = mysql_connect('localhost', 'alokbhav_abbhave', 'alokb123')
+$link = mysql_connect('mysql://mysql:3306/', 'alokbhav_abbhave', 'alokb123')
     or die('Could not connect: ' . mysql_error());
 
 mysql_select_db('alokbhav_natureinfo') or die('Could not select database');
