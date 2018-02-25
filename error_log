@@ -1,0 +1,599 @@
+[16-Feb-2013 12:19:06 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/ShowGallery.php on line 31
+[16-Feb-2013 12:21:59 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/ShowImage.php on line 22
+[16-Feb-2013 12:23:06 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/ShowBirdInfo.php on line 17
+[16-Feb-2013 12:25:54 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/ShowTagGallery.php on line 28
+[16-Feb-2013 12:27:21 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[16-Feb-2013 12:28:42 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[16-Feb-2013 12:30:49 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[16-Jun-2013 16:22:31 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/DbBrowser.php on line 9
+[16-Jun-2013 16:23:15 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/AddBirdImageInfo.php on line 9
+[16-Jun-2013 16:24:19 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'abbhave'@'localhost' (using password: YES) in /home/alokbhav/public_html/AddBirdImageInfo.php on line 9
+[16-Jun-2013 17:11:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/AddTagImageInfo.php on line 124
+[16-Jun-2013 18:16:38 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[16-Jun-2013 18:16:54 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[16-Jun-2013 18:16:58 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 3 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 61
+[30-Nov-2013 12:28:04 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 12:28:04 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 12:32:24 Europe/Berlin] PHP Warning:  include(phpFunction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/alokbhav/public_html/ShowGallery.php on line 26
+[30-Nov-2013 12:32:24 Europe/Berlin] PHP Warning:  include(phpFunction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/alokbhav/public_html/ShowGallery.php on line 26
+[30-Nov-2013 12:32:24 Europe/Berlin] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'phpFunction.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/alokbhav/public_html/ShowGallery.php on line 26
+[30-Nov-2013 12:37:41 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 12:37:41 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 12:39:05 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:39:05 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:39:20 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:39:20 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:39:24 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:39:24 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:42:33 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:42:33 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:46:44 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:46:44 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 12:47:02 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 84
+[30-Nov-2013 12:47:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 85
+[30-Nov-2013 14:04:08 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:04:08 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:04:50 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:04:50 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:08:23 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:08:23 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:20:26 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:20:26 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:20:28 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:20:28 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:90) in /home/alokbhav/public_html/index.php on line 90
+[30-Nov-2013 14:20:32 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:20:32 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:21:01 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:21:01 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:21:23 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 14:21:23 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 14:22:39 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 14:22:39 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowImage.php:6) in /home/alokbhav/public_html/ShowImage.php on line 18
+[30-Nov-2013 14:26:19 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:26:19 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:32:22 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:32:22 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:32:34 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:32:34 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/index.php:2) in /home/alokbhav/public_html/index.php on line 2
+[30-Nov-2013 14:37:03 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:37:05 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:37:07 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:37:09 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:37:17 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:37:24 Europe/Berlin] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alokbhav/public_html/ShowGallery.php:11) in /home/alokbhav/public_html/ShowGallery.php on line 49
+[30-Nov-2013 14:39:41 Europe/Berlin] PHP Fatal error:  Call to undefined function start_session() in /home/alokbhav/public_html/ShowGallery.php on line 1
+[30-Nov-2013 14:48:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 60
+[30-Nov-2013 14:50:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 60
+[01-Dec-2013 07:11:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '[' in /home/alokbhav/public_html/ShowGallery.php on line 87
+[01-Dec-2013 07:12:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/alokbhav/public_html/ShowImage.php on line 19
+[01-Dec-2013 07:23:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 142
+[01-Dec-2013 07:43:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 142
+[01-Dec-2013 07:48:48 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 83
+[01-Dec-2013 07:48:48 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 84
+[01-Dec-2013 07:55:44 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 07:56:51 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 07:58:52 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -60 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 07:58:59 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -90 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:05:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting ',' or ';' in /home/alokbhav/public_html/ShowImage.php on line 66
+[01-Dec-2013 10:12:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/alokbhav/public_html/ShowImage.php on line 2
+[01-Dec-2013 10:39:06 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:14 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -60 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:17 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -90 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:19 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -120 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:21 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -150 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:24 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -180 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:28 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -210 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:39:31 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -240 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:40:03 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:40:17 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 107
+[01-Dec-2013 10:42:52 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 112
+[01-Dec-2013 10:44:36 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 112
+[01-Dec-2013 10:49:18 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 114
+[01-Dec-2013 10:50:34 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 111
+[01-Dec-2013 10:51:41 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 114
+[01-Dec-2013 10:52:06 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 114
+[01-Dec-2013 11:05:25 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 106
+[01-Dec-2013 11:06:13 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 106
+[01-Dec-2013 11:07:22 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 30 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 112
+[01-Dec-2013 11:20:37 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 112
+[01-Dec-2013 16:36:58 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 83
+[01-Dec-2013 16:36:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 84
+[02-Dec-2013 19:09:00 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 112
+[04-Dec-2013 10:38:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alokbhav/public_html/ShowGallery.php on line 80
+[04-Dec-2013 10:40:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alokbhav/public_html/ShowGallery.php on line 80
+[04-Dec-2013 10:40:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alokbhav/public_html/ShowGallery.php on line 80
+[04-Dec-2013 10:44:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Dec-2013 10:44:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Dec-2013 15:38:45 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 127
+[05-Dec-2013 19:25:05 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 127
+[05-Dec-2013 19:26:01 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 127
+[08-Dec-2013 17:36:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '>' in /home/alokbhav/public_html/ShowImage.php on line 49
+[09-Dec-2013 07:46:42 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 131
+[09-Dec-2013 07:46:46 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 131
+[10-Dec-2013 05:48:40 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[10-Dec-2013 05:48:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[10-Dec-2013 08:47:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[10-Dec-2013 08:47:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[13-Dec-2013 14:16:03 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[13-Dec-2013 14:16:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[13-Dec-2013 15:41:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowContents.php on line 49
+[13-Dec-2013 15:42:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowContents.php on line 49
+[13-Dec-2013 16:15:32 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[13-Dec-2013 16:15:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[13-Dec-2013 16:51:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowContents.php on line 49
+[13-Dec-2013 18:14:31 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[13-Dec-2013 18:14:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[13-Dec-2013 19:00:34 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 131
+[13-Dec-2013 21:15:18 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 89
+[13-Dec-2013 21:15:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 91
+[14-Dec-2013 06:41:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/AddTagImageInfo.php on line 124
+[14-Dec-2013 06:44:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowContents.php on line 49
+[15-Dec-2013 19:25:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/alokbhav/public_html/getGPSLocation.php on line 15
+[15-Dec-2013 19:31:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/alokbhav/public_html/getGPSLocation.php on line 13
+[17-Dec-2013 00:06:40 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[17-Dec-2013 00:06:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[17-Dec-2013 00:23:15 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[17-Dec-2013 00:23:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[17-Dec-2013 13:34:48 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[17-Dec-2013 13:34:48 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[18-Dec-2013 18:58:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[18-Dec-2013 18:58:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[19-Dec-2013 13:48:02 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[19-Dec-2013 13:48:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[21-Dec-2013 18:07:16 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[21-Dec-2013 18:07:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[21-Dec-2013 20:42:59 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[21-Dec-2013 20:42:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[22-Dec-2013 01:51:11 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[22-Dec-2013 01:51:11 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[22-Dec-2013 04:59:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[22-Dec-2013 04:59:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[23-Dec-2013 18:32:09 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[23-Dec-2013 18:32:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[23-Dec-2013 19:37:25 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[23-Dec-2013 19:37:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[24-Dec-2013 00:12:08 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[24-Dec-2013 00:12:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[24-Dec-2013 06:05:08 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[24-Dec-2013 06:05:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[24-Dec-2013 07:08:44 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[24-Dec-2013 07:08:44 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[25-Dec-2013 21:08:52 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[25-Dec-2013 21:08:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[25-Dec-2013 21:53:25 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[25-Dec-2013 21:53:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[26-Dec-2013 19:39:27 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[26-Dec-2013 19:39:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[26-Dec-2013 19:43:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[26-Dec-2013 19:43:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[26-Dec-2013 19:45:31 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[26-Dec-2013 19:45:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[27-Dec-2013 10:53:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[27-Dec-2013 10:53:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[27-Dec-2013 10:54:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[27-Dec-2013 10:54:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:36:59 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:36:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:38:09 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:38:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:42:13 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:42:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:49:41 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:49:41 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:50:11 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:50:11 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:52:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:52:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:53:02 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:53:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:53:19 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:53:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:56:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 08:57:26 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 91
+[28-Dec-2013 08:57:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 93
+[28-Dec-2013 11:53:19 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 135
+[28-Dec-2013 11:59:25 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 136
+[28-Dec-2013 12:06:56 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 136
+[28-Dec-2013 12:20:30 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 136
+[28-Dec-2013 12:22:14 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 136
+[28-Dec-2013 12:28:06 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 135
+[28-Dec-2013 12:28:12 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 135
+[28-Dec-2013 12:43:27 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 135
+[28-Dec-2013 12:43:30 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 135
+[28-Dec-2013 13:46:06 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 36 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 13:46:19 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:12:50 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:13:34 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:19:27 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:24:29 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:24:58 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:25:21 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:26:02 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 15:28:59 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 16:09:51 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 16:09:56 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 16:20:26 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 16:20:40 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 16:23:24 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset -18 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 19:25:22 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Dec-2013 19:41:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[28-Dec-2013 19:41:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-Dec-2013 05:44:13 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[29-Dec-2013 05:45:36 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[29-Dec-2013 05:47:41 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[29-Dec-2013 18:44:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowImage.php on line 46
+[29-Dec-2013 22:21:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-Dec-2013 22:21:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-Dec-2013 08:52:04 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[30-Dec-2013 14:58:53 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[30-Dec-2013 16:05:56 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[30-Dec-2013 16:05:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-Dec-2013 17:14:24 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[30-Dec-2013 17:14:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-Dec-2013 17:51:14 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[30-Dec-2013 17:51:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-Dec-2013 18:15:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:15:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:16:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:17:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:17:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:18:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:18:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:18:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:23:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:23:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:24:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:24:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:24:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:26:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:27:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:28:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 18:28:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 70
+[30-Dec-2013 20:32:34 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[30-Dec-2013 20:32:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[31-Dec-2013 08:38:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[31-Dec-2013 08:38:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Jan-2014 13:39:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[02-Jan-2014 13:39:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[04-Jan-2014 23:04:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Jan-2014 23:04:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-Jan-2014 00:36:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Jan-2014 00:36:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-Jan-2014 04:14:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Jan-2014 04:14:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-Jan-2014 05:46:51 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Jan-2014 05:46:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-Jan-2014 15:53:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Jan-2014 15:53:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-Jan-2014 21:34:37 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-Jan-2014 21:34:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[06-Jan-2014 19:34:56 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[06-Jan-2014 19:34:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[06-Jan-2014 20:54:10 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[06-Jan-2014 20:54:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 11:16:30 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 11:16:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 14:05:33 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 14:05:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 14:56:34 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 14:56:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 15:42:24 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 15:42:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 16:16:51 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 16:16:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 17:04:26 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 17:04:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 17:56:01 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 17:56:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 19:14:26 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 19:14:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jan-2014 23:36:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jan-2014 23:36:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[08-Jan-2014 17:35:24 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[08-Jan-2014 17:35:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 03:23:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 03:23:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 04:39:15 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 04:39:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 11:30:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 11:30:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 11:45:27 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 11:45:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 16:25:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 16:25:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Jan-2014 20:06:06 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Jan-2014 20:06:06 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 01:37:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 01:37:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 02:18:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 02:18:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 14:38:02 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 14:38:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 14:58:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 14:58:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 15:44:57 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 15:44:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 15:48:43 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 15:48:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 17:21:48 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 17:21:48 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 17:29:33 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 17:29:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 18:06:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 18:06:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jan-2014 18:10:51 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jan-2014 18:10:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[12-Jan-2014 20:48:33 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[12-Jan-2014 20:48:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 01:16:21 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 01:16:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 03:05:56 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 03:05:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 10:31:22 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 10:31:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 13:08:33 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 13:08:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 16:38:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 16:38:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2014 17:39:52 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2014 17:39:52 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Jan-2014 04:42:16 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Jan-2014 04:42:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Jan-2014 05:18:10 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Jan-2014 05:18:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Jan-2014 06:18:00 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Jan-2014 06:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Jan-2014 08:46:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Jan-2014 08:46:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Jan-2014 17:24:21 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Jan-2014 17:24:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Jan-2014 06:35:02 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Jan-2014 06:35:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Jan-2014 06:36:04 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Jan-2014 06:36:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Jan-2014 06:37:06 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Jan-2014 06:37:06 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 18:06:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 18:06:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 20:38:13 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 20:38:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 20:48:24 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 20:48:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 22:22:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 22:22:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 22:23:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 22:23:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jan-2014 22:25:34 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jan-2014 22:25:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[19-Jan-2014 03:22:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[19-Jan-2014 03:22:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[19-Jan-2014 22:44:51 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[19-Jan-2014 22:44:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[19-Jan-2014 23:48:57 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[19-Jan-2014 23:48:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jan-2014 00:51:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jan-2014 00:51:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jan-2014 01:29:03 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jan-2014 01:29:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jan-2014 23:16:22 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jan-2014 23:16:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jan-2014 23:48:39 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jan-2014 23:48:39 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[21-Jan-2014 00:28:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[21-Jan-2014 00:28:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[21-Jan-2014 03:49:08 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[21-Jan-2014 03:49:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[21-Jan-2014 14:10:22 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[21-Jan-2014 14:10:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[22-Jan-2014 00:04:45 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[22-Jan-2014 00:04:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[22-Jan-2014 01:42:58 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[22-Jan-2014 01:42:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[22-Jan-2014 02:14:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[22-Jan-2014 02:14:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[23-Jan-2014 08:43:41 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[23-Jan-2014 08:43:41 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[23-Jan-2014 09:28:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[23-Jan-2014 09:28:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jan-2014 09:37:00 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jan-2014 09:37:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jan-2014 15:42:23 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jan-2014 15:42:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jan-2014 15:54:18 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jan-2014 15:54:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jan-2014 23:21:48 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jan-2014 23:21:48 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jan-2014 23:25:55 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jan-2014 23:25:55 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[25-Jan-2014 15:46:05 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[25-Jan-2014 15:46:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Jan-2014 05:27:27 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Jan-2014 05:27:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Jan-2014 06:22:13 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Jan-2014 06:22:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Jan-2014 08:37:22 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Jan-2014 08:37:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Jan-2014 12:46:44 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Jan-2014 12:46:44 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Jan-2014 23:15:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Jan-2014 23:15:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[28-Jan-2014 00:53:58 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[28-Jan-2014 00:53:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-Jan-2014 01:24:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-Jan-2014 01:24:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-Jan-2014 18:05:18 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-Jan-2014 18:05:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[31-Jan-2014 08:45:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[31-Jan-2014 08:45:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[03-Feb-2014 23:11:57 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[03-Feb-2014 23:11:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[04-Feb-2014 00:34:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Feb-2014 00:34:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[04-Feb-2014 01:56:10 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Feb-2014 01:56:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[04-Feb-2014 13:12:01 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Feb-2014 13:12:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[09-Feb-2014 23:31:45 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[09-Feb-2014 23:31:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Feb-2014 16:09:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Feb-2014 16:09:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[18-Feb-2014 01:31:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[18-Feb-2014 01:31:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Feb-2014 19:37:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Feb-2014 19:37:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[26-Feb-2014 08:20:24 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[26-Feb-2014 08:21:35 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[26-Feb-2014 08:22:07 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[28-Feb-2014 03:45:16 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[28-Feb-2014 03:45:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Mar-2014 09:24:05 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[02-Mar-2014 09:24:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Mar-2014 14:32:14 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Mar-2014 14:32:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Mar-2014 16:01:45 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Mar-2014 16:01:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Mar-2014 01:10:34 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Mar-2014 01:10:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[23-Mar-2014 06:44:13 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[23-Mar-2014 06:45:13 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[23-Mar-2014 19:01:56 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[23-Mar-2014 19:01:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Apr-2014 20:21:39 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[02-Apr-2014 20:22:52 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[12-Apr-2014 01:22:13 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[12-Apr-2014 01:22:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Apr-2014 17:36:10 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Apr-2014 17:36:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[21-Apr-2014 21:48:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[21-Apr-2014 21:48:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-Apr-2014 01:27:49 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-Apr-2014 01:27:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[05-May-2014 19:43:30 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[05-May-2014 19:43:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[12-May-2014 20:47:16 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[12-May-2014 20:47:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[22-May-2014 03:34:58 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[22-May-2014 03:34:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-May-2014 11:29:58 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-May-2014 11:29:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-May-2014 13:58:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-May-2014 13:58:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Jun-2014 22:36:16 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[02-Jun-2014 22:36:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[10-Jun-2014 02:48:35 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[10-Jun-2014 02:48:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[11-Jun-2014 02:03:01 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[11-Jun-2014 02:03:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jun-2014 01:06:35 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jun-2014 01:06:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jun-2014 14:08:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jun-2014 14:08:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-Jun-2014 17:34:18 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[30-Jun-2014 17:35:04 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[30-Jun-2014 17:39:09 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[01-Jul-2014 01:20:46 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[01-Jul-2014 01:20:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[07-Jul-2014 19:50:05 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[07-Jul-2014 19:50:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Sep-2014 18:56:07 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 140
+[15-Nov-2014 10:58:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 78
+[15-Nov-2014 10:58:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 78
+[15-Nov-2014 10:59:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 78
+[15-Nov-2014 11:02:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 78
+[15-Nov-2014 11:24:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 11:27:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 11:50:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 11:51:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 11:51:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 11:56:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/alokbhav/public_html/ShowGallery.php on line 80
+[15-Nov-2014 11:56:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/alokbhav/public_html/ShowGallery.php on line 80
+[15-Nov-2014 14:51:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 14:51:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[15-Nov-2014 14:51:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in /home/alokbhav/public_html/ShowGallery.php on line 114
+[18-Nov-2014 16:47:08 Europe/Berlin] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/alokbhav/public_html/ShowBirdInfo.php on line 17
+[22-Dec-2014 19:44:43 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[22-Dec-2014 19:44:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[23-Feb-2015 17:37:44 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[23-Feb-2015 17:37:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[27-Mar-2015 15:34:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[27-Mar-2015 15:34:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[01-May-2015 16:07:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[01-May-2015 16:07:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[10-May-2015 04:44:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[10-May-2015 04:44:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[30-May-2015 12:59:06 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[30-May-2015 12:59:06 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[18-Jun-2015 09:30:45 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[18-Jun-2015 09:30:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[24-Jun-2015 06:08:37 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[24-Jun-2015 06:08:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[26-Jun-2015 13:16:38 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[26-Jun-2015 13:16:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[29-Jun-2015 02:59:23 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[29-Jun-2015 02:59:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Jul-2015 09:00:41 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[02-Jul-2015 09:00:41 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[04-Jul-2015 06:06:49 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[04-Jul-2015 06:06:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[06-Jul-2015 21:06:03 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[06-Jul-2015 21:06:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[10-Jul-2015 02:03:34 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[10-Jul-2015 02:03:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[12-Jul-2015 18:12:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[12-Jul-2015 18:12:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[17-Jul-2015 19:54:11 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[17-Jul-2015 19:54:11 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jul-2015 05:13:50 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jul-2015 05:13:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[20-Jul-2015 22:16:36 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[20-Jul-2015 22:16:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[03-Aug-2015 01:27:40 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[03-Aug-2015 01:27:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[03-Oct-2015 09:43:23 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[03-Oct-2015 09:43:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[26-Oct-2015 10:40:12 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[26-Oct-2015 10:40:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[02-Nov-2015 12:32:27 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[02-Nov-2015 12:32:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Nov-2015 07:14:13 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Nov-2015 07:14:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[12-Dec-2015 07:01:03 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[12-Dec-2015 07:01:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Dec-2015 15:45:53 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Dec-2015 15:45:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[10-Jan-2016 10:11:32 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[10-Jan-2016 10:11:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[13-Jan-2016 02:14:33 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[13-Jan-2016 02:14:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[23-Mar-2016 18:30:47 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[23-Mar-2016 18:30:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[10-Apr-2016 17:57:24 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[10-Apr-2016 17:57:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[14-Apr-2016 12:41:17 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[14-Apr-2016 12:41:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[16-Apr-2016 21:08:49 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 95
+[16-Apr-2016 21:08:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 98
+[19-Apr-2016 08:56:18 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[19-Apr-2016 08:56:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[19-Apr-2016 10:10:30 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 142
+[20-Apr-2016 05:53:25 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 142
+[24-Apr-2016 18:22:43 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[24-Apr-2016 18:22:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[27-Apr-2016 09:11:55 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[27-Apr-2016 09:11:55 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[30-Apr-2016 09:37:19 Europe/Berlin] PHP Warning:  mysql_data_seek() [<a href='function.mysql-data-seek'>function.mysql-data-seek</a>]: Offset 0 is invalid for MySQL result index 4 (or the query data is unbuffered) in /home/alokbhav/public_html/ShowGallery.php on line 142
+[30-Apr-2016 17:12:08 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[30-Apr-2016 17:12:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[19-Jun-2016 09:38:26 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[19-Jun-2016 09:38:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[28-Jun-2016 02:44:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[28-Jun-2016 02:44:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102
+[30-Jun-2016 17:16:29 Europe/Berlin] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/alokbhav/public_html/ShowGallery.php on line 99
+[30-Jun-2016 17:16:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/alokbhav/public_html/ShowGallery.php on line 102

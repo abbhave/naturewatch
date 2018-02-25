@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script src="javascript/jquery-2.1.4.min.js"></script>
+<script src="javascript/handlebars-v3.0.3.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascript/myjavascript.js"></script>   
+
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div id="galleryDiv" style='position:relative;z-index:15;width:100%;'>
+<div id="imagedialog" title="Image Dialog"><div id="ImageContent"></div></div>
+<center>Click on the <font color="#FFAD00">thumbnails</font> to view images OR to view the species info click on the species name OR to view pics by location or tag wise click on location or tag</center>
+<script>$( "#imagedialog" ).dialog({ autoOpen: false });</script>
+<div align="right" style="float:left;color: #ffff00;width:50%;">
+	<a style="color: rgb(250, 73, 5);" href="/index.php">Home</a>
+</div>
+<div align="right" style="float:right;width:20%;"><p style="color: #ffff00">Go To</p>	
+    <div id="speciesselect">	 
+	</div>
+</div>
+<div class="container">
+  <h1>Birds Album</h1>
+  <!-- Start Breadcrumb -->
+  <!--<ol class="breadcrumb">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="albums.html">Albums</a></li>
+	<li><a href="allphotos.html">Birds Album</a></li>
+  </ol>-->
+  <!-- Start Breadcrumb -->
+  <div class="row" id="album"></div> <!-- / row -->
+</div> <!-- / container -->
+
+<!--<table onload="setTitle('Yrdy2')" border="0" cellspacing="4" cellpadding="4" width="100%">
+	<script>$( "#imagedialog" ).dialog({ autoOpen: false });</script>
+	<tbody>
+		<tr>
+			<td align="center">
+				<a onclick="loadImage('abc','Birds','White Browed Wagtail','1231','0')" onmouseover="showHand(this)" title="Name: 
+					<a style='color: #5e5eff;' onClick='loadInfo('speciesname','Birds','White Browed Wagtail','1')' onmouseover='showHand(this)'>White Browed Wagtail</a>
+					<br>Location: Dandeli
+						<br>Taken On: 2016-03-26" style="cursor: pointer;">
+							<img border="0" src="https://lh3.googleusercontent.com/-yS-41HlBeOM/VxOWHfy3KUI/AAAAAAAAXhk/NZjbbhMpBT07rdd7FXrHCr9i7AEJ7-TbACCo/s250-Ic42/DSCN4122.JPG">
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>-->
+							
+</div> <!-- /galleryDiv -->
+<script id="image-template" type="text/x-handlebars-template">
+  <div class="title">
+		<h1>{{title}}</h1>
+		<h3 class="author">
+		  {{author}}
+		</h3>
+		<img  style="height:600" src="{{src}}"/>
+  </div>
+</script>
+<script id="speciesselect-template" type="text/x-handlebars-template">
+	<select id="speciestagname" name="LocationId" onchange="loadInfo({{type}},{{category}},this.options[this.selectedIndex].value,'1')">
+	</select>
+</script>
+<script id="specieslist-template" type="text/x-handlebars-template">
+	<option value="{{encodedname}}">{{name}}</option>
+</script>
+<script id="specieslist-template" type="text/x-handlebars-template">
+	  <div class="col-xs-6 col-md-3 col-lg-2">
+		<a onclick="loadImage('abc',{{category}},{{speciesname}},{{speciesid}},'0')" onmouseover="showHand(this)" title="Name: 
+					<a style='color: #5e5eff;' onClick='loadInfo({{type}},{{category}},{{speciesname}},'1')' onmouseover='showHand(this)'>{{speciesname}}</a>
+					<br>Location: {{specieslocation}}
+						<br>Taken On: {{datetaken}}" style="cursor: pointer;"><img class="photos_list" alt={{speciesname}} border="0" src={{speciesurl}}/></a>
+	  </div> <!-- / col -->
+</script>
+<!-- javascript code to fill the template -->
+<script type="text/javascript">
+var queryString = new Array();
+if (queryString.length == 0) {
+	if (window.location.search.split('?').length > 1) {
+		var params = window.location.search.split('?')[1].split('&');
+		for (var i = 0; i < params.length; i++) {
+			var key = params[i].split('=')[0];
+			var value = decodeURIComponent(params[i].split('=')[1]);
+			queryString[key] = value;
+		}
+	}
+}
+
+// grab our template code from the DOM
+var source   = $("#speciesselect-template").html();
+
+// compile the template so we can use it
+var templateSpeciesSelect = Handlebars.compile(source);
+
+// create some data
+var dataSelect = {
+  type:"speciesname",
+  category:"Birds"
+};
+
+// generate HTML from the data
+var htmlSelect    = templateSpeciesSelect(dataSelect);
+
+// add the HTML to the content div
+$('#speciesselect').html(htmlSelect);
+
+
+//get data by doing a webservice call
+$.get("ShowGalleryResponsive.php?type=speciesname&categ=Mammals&pagenum=1", function(response) {
+        var dataOptionArray=JSON.parse(response);
+		var htmlAllOptions="";
+		for (i = 0; i < dataOptionArray.length; i++) {
+			var sourceSpeciesList = $("#specieslist-template").html();
+
+			// compile the template so we can use it
+			var templateSpeciesList = Handlebars.compile(sourceSpeciesList);
+			var dataOption = dataOptionArray[i];
+			// generate HTML from the data
+			var htmlSelectList    = templateSpeciesList(dataOption);
+			htmlAllOptions+=htmlSelectList;
+		}
+		var idselect="#"+"speciestagname";
+		// add the HTML to the content div
+		$(idselect).html(htmlAllOptions);
+   }).error(function(){
+  alert("Sorry could not proceed");
+});
+
+</script>
+</body>
+</html>
