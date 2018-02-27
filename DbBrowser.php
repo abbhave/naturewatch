@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-  $link = mysqli_connect('localhost','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
+  $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
   echo "connected to db\n";
   $query = 'show databases' ;
   $db = mysql_query($query) or die('Query failed: ' . mysql_error());
