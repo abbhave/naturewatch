@@ -12,7 +12,7 @@
   $db = mysqli_query($link,$query) or die('Query failed: ' . mysql_error());
   echo "Query successful\n";
   echo "<table>\n";
-  while ($line = mysqli_fetch_array($db, MYSQLI_ASSOC)) {
+  while ($line = mysql_fetch_array($db, MYSQLI_ASSOC)) {
 	  echo "<tr>\n";
 	  foreach ($line as $colval)
 	    echo "\t<td><a href=ShowTables.php?dbname=$colval>$colval</a></td>\n";
