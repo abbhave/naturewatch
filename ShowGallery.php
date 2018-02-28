@@ -129,10 +129,10 @@ $result = mysqli_query($link,$query) or die('Query failed: ' . mysql_error());
 
 //Calculate the number of pages
 global $numpages;
-$numpages = ceil(mysql_num_rows($result)/$perPage);
+$numpages = ceil(mysqli_num_rows($result)/$perPage);
 //echo "perPage=".$perPage;
 //echo "<br/>";
-//echo "numofrow=".mysql_num_rows($result);
+//echo "numofrow=".mysqli_num_rows($result);
 //echo "<br/>";
 //echo "numpages=".$numpages;
 //echo "<br/>";
@@ -144,7 +144,7 @@ $i=0;
 $title="";
 $arrimageids=array();
 echo "<tr>";
-while ($line = mysqli_fetch_array($result, MYSQL_ASSOC)) {
+while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 	if($i==$perPage)
 	  break;
 	$i++;
