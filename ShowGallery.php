@@ -95,7 +95,7 @@ else if($type == 'location')
 
 
 echo "<option value= />";
-$tagArray=getArrayforList($type,$category);
+$tagArray=getArrayforList($link,$type,$category);
 asort($tagArray);
 //print_r($tagArray);
 $speciescount=1;
