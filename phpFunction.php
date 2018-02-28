@@ -52,7 +52,7 @@
 		return $query;
 	}
 	
-	function getArrayforList($type,$categ)
+	function getArrayforList($link,$type,$categ)
 	{
 		$tablename = getTableFromCateg($categ);
 		
