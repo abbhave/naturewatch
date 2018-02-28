@@ -125,7 +125,7 @@ else if($type == 'location')
 	$query = createQueryOnType($type,$category,$locationname);
 else 
 	$query = createQueryOnType($type,$category);
-$result = mysql_query($query) or die('Query failed: ' . mysql_error());
+$result = mysqli_query($link,$query) or die('Query failed: ' . mysql_error());
 
 //Calculate the number of pages
 global $numpages;
@@ -139,12 +139,12 @@ $numpages = ceil(mysql_num_rows($result)/$perPage);
 
 //seek a location depending on the value of page number
 //no pagenumber is considered to be 1
-mysql_data_seek($result,$pagenumber*$perPage);
+mysqli_data_seek($result,$pagenumber*$perPage);
 $i=0;
 $title="";
 $arrimageids=array();
 echo "<tr>";
-while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+while ($line = mysqli_fetch_array($result, MYSQL_ASSOC)) {
 	if($i==$perPage)
 	  break;
 	$i++;
