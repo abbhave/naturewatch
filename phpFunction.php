@@ -59,9 +59,9 @@
 		if($type == 'gallery' || $type == 'speciesname')
 		{
 			$query="select CommonName from ".$tablename;
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($query) or die('Query failed: ' . mysql_error());
 			$birdArray=array();
-			while($birdList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($birdList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $birdName=$birdList['CommonName'];
 			  array_push($birdArray,$birdName);
 			}
@@ -70,10 +70,10 @@
 		else if($type == 'tagname')
 		{
 			$query="select TagName from imagetag";
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($query) or die('Query failed: ' . mysql_error());
 			
 			$tagArray=array();
-			while($tagList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($tagList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $tagName=$tagList[0];
 			  $tagkeys=preg_split("/[\s,]/",$tagName);
 			  foreach ($tagkeys as $tags) {
@@ -87,9 +87,9 @@
 		else if($type == 'location')
 		{
 			$query="select DISTINCT(LocationName) from ImageInfo";
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($query) or die('Query failed: ' . mysql_error());
 			$locationArray=array();
-			while($locationList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($locationList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $locationName=$locationList['LocationName'];
 			  //print("LocationName=".$locationName);
 			  array_push($locationArray,$locationName);
