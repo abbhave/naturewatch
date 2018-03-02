@@ -75,7 +75,7 @@
 			$query="select CommonName from ".$tablename;
 			if($count != -1)
 				$query.=$limitquery;
-			print("Query in getArrayforList Query=".$query."Type=".$type);
+			print_r("Query in getArrayforList Query=".$query."Type=".$type);
 			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			$birdArray=array();
 			while($birdList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
@@ -89,7 +89,7 @@
 			$query="select TagName from imagetag";
 			if($count != -1)
 				$query.=$limitquery;
-			print("Query in getArrayforList Query=".$query."Type=".$type);
+			print_r("Query in getArrayforList Query=".$query."Type=".$type);
 			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			
 			$tagArray=array();
@@ -109,7 +109,7 @@
 			$query="select DISTINCT(LocationName) from ImageInfo";
 			if($count != -1)
 				$query.=$limitquery;
-			print("Query in getArrayforList Query=".$query."Type=".$type);
+			print_r("Query in getArrayforList Query=".$query."Type=".$type);
 			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			$locationArray=array();
 			while($locationList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
