@@ -22,7 +22,7 @@ $pagenumber = $_GET['pagenum'];
 $locationname = $_GET['locationname'];
 $action = $_GET['action'];
 //echo "Action=".$action;
-$returnjson="";
+//$returnjson="";
 if($action == 'specieslist')
 	$returnjson=getSpeciesList($link,$type,$category);
 else if($action == 'allPicAlbum')
