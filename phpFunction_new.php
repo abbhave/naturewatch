@@ -64,7 +64,7 @@
 		return $query;
 	}
 	
-	function getArrayforList($type,$categ,$offset,$count)
+	function getArrayforList($link,$type,$categ,$offset,$count)
 	{
 		$tablename = getTableFromCateg($categ);
 		
@@ -75,9 +75,9 @@
 			$query="select CommonName from ".$tablename;
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
 			$birdArray=array();
-			while($birdList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($birdList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $birdName=$birdList['CommonName'];
 			  array_push($birdArray,$birdName);
 			}
@@ -88,10 +88,10 @@
 			$query="select TagName from imagetag";
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
 			
 			$tagArray=array();
-			while($tagList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($tagList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $tagName=$tagList[0];
 			  $tagkeys=preg_split("/[\s,]/",$tagName);
 			  foreach ($tagkeys as $tags) {
@@ -107,9 +107,9 @@
 			$query="select DISTINCT(LocationName) from ImageInfo";
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysql_query($query) or die('Query failed: ' . mysql_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
 			$locationArray=array();
-			while($locationList = mysql_fetch_array($queryResult, MYSQL_BOTH)){  
+			while($locationList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $locationName=$locationList['LocationName'];
 			  //print("LocationName=".$locationName);
 			  array_push($locationArray,$locationName);
