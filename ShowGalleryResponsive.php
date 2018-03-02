@@ -3,7 +3,7 @@
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED);
 $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123')
-    or die('Could not connect: ' . mysql_error());
+    or die('Could not connect: ' . mysqli_error($link));
 
 //mysql_select_db('u802345539_alok') or die('Could not select database');
 
@@ -80,7 +80,7 @@ function getAllPicAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesize
 		$offset=($pagenumber-1)*$pagesize;
 		$query.=" limit ".$offset.",".$pagesize;
 	}		
-	$result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
+	$result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 	if($totalrecordsize==true)
 	{
 		$line = mysqli_fetch_array($result, MYSQLI_ASSOC);
@@ -135,7 +135,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 		foreach ($species as $key => $species_name) {
 			$query = 'SELECT commonname,imagelink,locationname,date,category,Tag,imageid FROM ImageInfo where commonname="' . $species_name['name'] . '"';
 			$query.=' order by date DESC, imageid DESC LIMIT 1';
-			$result = mysqli_query($query) or die('Query failed: ' . mysqli_error());
+			$result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			$i=0;
 			while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 				$i++;
