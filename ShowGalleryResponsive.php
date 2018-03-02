@@ -2,10 +2,10 @@
 <?php include("phpFunction.php"); ?>	
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED);
-$link = mysql_connect('localhost', 'u802345539_alok', 'alokb123')
+$link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123')
     or die('Could not connect: ' . mysql_error());
 
-mysql_select_db('u802345539_alok') or die('Could not select database');
+//mysql_select_db('u802345539_alok') or die('Could not select database');
 
 $category=$_GET['categ'];
 $type=$_GET['type'];
@@ -47,21 +47,21 @@ function getCategoryAlbum($type,$category)
 		$query = createQueryOnType($type,$category,$locationname);
 	else 
 		$query = createQueryOnType($type,$category);
-	$result = mysql_query($query) or die('Query failed: ' . mysql_error());
+	$result = mysqli_query($link,$query) or die('Query failed: ' . mysql_error());
 
 	//Calculate the number of pages
 	global $numpages;
-	$numpages = ceil(mysql_num_rows($result)/$perPage);
+	$numpages = ceil(mysqli_num_rows($result)/$perPage);
 	//echo 'Query='.$query;
 	//seek a location depending on the value of page number
 	//no pagenumber is considered to be 1
 	$pagenumber=0;
-	mysql_data_seek($result,$pagenumber*$perPage);
+	mysqli_data_seek($result,$pagenumber*$perPage);
 	$i=0;
 	$title="";
 	$arrimageids=array();
 	//echo "<tr>";
-	while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+	while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 		if($i==$perPage)
 		  break;
 		$i++;
