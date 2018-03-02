@@ -140,6 +140,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 			echo "Species Name=".$species_name;
 			$query = 'SELECT commonname,imagelink,locationname,date,category,Tag,imageid FROM ImageInfo where commonname="' . $species_name['name'] . '"';
 			$query.=' order by date DESC, imageid DESC LIMIT 1';
+			echo "Query=".$query;
 			$result = mysqli_query($link,$query);
 			$i=0;			
 			while ($line = mysqli_fetch_array($result,MYSQLI_ASSOC); ) {				
