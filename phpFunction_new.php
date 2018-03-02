@@ -75,7 +75,7 @@
 			$query="select CommonName from ".$tablename;
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			$birdArray=array();
 			while($birdList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $birdName=$birdList['CommonName'];
@@ -88,7 +88,7 @@
 			$query="select TagName from imagetag";
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			
 			$tagArray=array();
 			while($tagList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
@@ -107,7 +107,7 @@
 			$query="select DISTINCT(LocationName) from ImageInfo";
 			if($count != -1)
 				$query.=$limitquery;
-			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
+			$queryResult = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
 			$locationArray=array();
 			while($locationList = mysqli_fetch_array($queryResult, MYSQLI_BOTH)){  
 			  $locationName=$locationList['LocationName'];
