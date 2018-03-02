@@ -133,18 +133,18 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 	$species='';
 	$arrimageids=array();
 	foreach ($specieslist as $key => $species) {
-		echo "Species=".$species;
+		//echo "Species=".$species;
 		//create a query based on table on the image table to get the first url
 		$tablename = getTableFromCateg($category);
 		foreach ($species as $key => $species_name) {
-			echo "Species Name=".$species_name;
+			//echo "Species Name=".$species_name;
 			$query = 'SELECT commonname,imagelink,locationname,date,category,Tag,imageid FROM ImageInfo where commonname="' . $species_name['name'] . '"';
 			$query.=' order by date DESC, imageid DESC LIMIT 1';
-			echo "Query=".$query;
+			//echo "Query=".$query;
 			$result = mysqli_query($link,$query);
 			$i=0;			
 			$count1=mysqli_num_rows($result);
-			echo "Number of rows=".$count1;
+			//echo "Number of rows=".$count1;
 			if($count1==0) continue;
 			while ($line = mysqli_fetch_array($result,MYSQLI_ASSOC)) {				
 				$i++;
