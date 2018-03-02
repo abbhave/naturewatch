@@ -18,14 +18,14 @@ $locationname = $_GET['locationname'];
 $action = $_GET['action'];
 
 if($action == 'specieslist')
-	$returnjson=getSpeciesList($type,$category);
+	$returnjson=getSpeciesList($link,$type,$category);
 else if($action == 'categoryalbum')
 	$returnjson=getCategoryAlbum($link,$type,$category);
 
-function getSpeciesList($type,$category)
+function getSpeciesList($link,$type,$category)
 {
 	$specieslist = array();
-	$tagArray=getArrayforList($type,$category);
+	$tagArray=getArrayforList($link,$type,$category);
 	asort($tagArray);
 	$speciescount=1;
 	foreach ($tagArray as $tags1)
