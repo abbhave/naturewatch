@@ -83,7 +83,7 @@ function getAllPicAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesize
 		$offset=($pagenumber-1)*$pagesize;
 		$query.=" limit ".$offset.",".$pagesize;
 	}		
-	$result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
+	$result = mysqli_query($link,$query);
 	if($totalrecordsize==true)
 	{
 		$line = mysqli_fetch_array($result, MYSQLI_ASSOC);
@@ -138,7 +138,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 		foreach ($species as $key => $species_name) {
 			$query = 'SELECT commonname,imagelink,locationname,date,category,Tag,imageid FROM ImageInfo where commonname="' . $species_name['name'] . '"';
 			$query.=' order by date DESC, imageid DESC LIMIT 1';
-			$result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error($link));
+			$result = mysqli_query($link,$query);
 			$i=0;
 			while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 				$i++;
