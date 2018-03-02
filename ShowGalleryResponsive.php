@@ -2,8 +2,11 @@
 <?php include("phpFunction_new.php"); ?>	
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED);
-$link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123')
-    or die('Could not connect: ' . mysqli_error($link));
+$link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+
+if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+}
 
 //mysql_select_db('u802345539_alok') or die('Could not select database');
 
