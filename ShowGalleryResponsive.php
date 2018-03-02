@@ -8,7 +8,7 @@ if(! $link ) {
       die('Could not connect: ' . mysqli_error());
 }
 
-mysqli_select_db('alokbhav_natureinfo');
+mysqli_select_db($link,'alokbhav_natureinfo');
 
 $pagesize=12;
 $speciespagesize=200;
