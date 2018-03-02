@@ -66,7 +66,7 @@ function getSpeciesListForAlbum($link,$type,$category,$offset=0,$count=-1)
 function getAllPicAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesize,$totalrecordsize=false)
 {
 	//$perPage=12;
-	//echo "type=".$type."speciesname=".$speciesname;
+	echo "type=".$type."speciesname=".$speciesname;
 	if($type == 'speciesname')
 		$query = createQueryOnType($type,$category,$speciesname,$totalrecordsize);
 	else if($type == 'tagname')
