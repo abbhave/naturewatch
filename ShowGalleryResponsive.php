@@ -8,7 +8,7 @@ if(! $link ) {
       die('Could not connect: ' . mysqli_error());
 }
 
-//mysql_select_db('u802345539_alok') or die('Could not select database');
+mysqli_select_db('alokbhav_abbhave');
 
 $pagesize=12;
 $speciespagesize=200;
