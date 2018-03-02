@@ -143,7 +143,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 			echo "Query=".$query;
 			$result = mysqli_query($link,$query);
 			$i=0;			
-			while ($line = mysqli_fetch_array($result,MYSQLI_ASSOC); ) {				
+			while ($line = mysqli_fetch_array($result,MYSQLI_ASSOC)) {				
 				$i++;
 				$imageurl=$line['imagelink'];
 				$imageurl=str_ireplace("s144","s250",$imageurl);
