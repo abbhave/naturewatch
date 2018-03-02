@@ -20,7 +20,7 @@ $locationname = $_GET['locationname'];
 $action = $_GET['action'];
 
 if($action == 'specieslist')
-	$returnjson=getSpeciesList($type,$category);
+	$returnjson=getSpeciesList($link,$type,$category);
 else if($action == 'allPicAlbum')
 	$returnjson=getAllPicAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesize);
 else if($action == 'allPicAlbumSize')
@@ -28,13 +28,13 @@ else if($action == 'allPicAlbumSize')
 else if($action == 'speciesalbum')
 	$returnjson=getSpeciesAlbum($link,$type,$category,'',$pagenumber,$speciespagesize);
 
-function getSpeciesList($type,$category,$offset=0,$count=-1)
+function getSpeciesList($link,$type,$category,$offset=0,$count=-1)
 {
 	$specieslist = array();
 	if($count==-1)
-		$tagArray=getArrayforList($type,$category,0,-1);
+		$tagArray=getArrayforList($link,$type,$category,0,-1);
 	else
-		$tagArray=getArrayforList($type,$category,$offset,$count);
+		$tagArray=getArrayforList($link,$type,$category,$offset,$count);
 	asort($tagArray);
 	$speciescount=1;
 	foreach ($tagArray as $tags1)
@@ -45,13 +45,13 @@ function getSpeciesList($type,$category,$offset=0,$count=-1)
 	return $specieslist;
 }
 
-function getSpeciesListForAlbum($type,$category,$offset=0,$count=-1)
+function getSpeciesListForAlbum($link,$type,$category,$offset=0,$count=-1)
 {
 	$specieslist = array();
 	if($count==-1)
-		$tagArray=getArrayforList($type,$category,0,-1);
+		$tagArray=getArrayforList($link,$type,$category,0,-1);
 	else
-		$tagArray=getArrayforList($type,$category,$offset,$count);
+		$tagArray=getArrayforList($link,$type,$category,$offset,$count);
 	asort($tagArray);
 	$speciescount=1;
 	foreach ($tagArray as $tags1)
@@ -123,7 +123,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 		$query = createQueryOnType($type,$category,' ',$totalrecordsize);  */
 	//get species list
 	//$specieslist = array();
-	$specieslist[]=getSpeciesListForAlbum($type,$category,($pagenumber-1)*$pagesize,$pagesize);
+	$specieslist[]=getSpeciesListForAlbum($link,$type,$category,($pagenumber-1)*$pagesize,$pagesize);
 	
 	//For each species get the first imageurl
 	$species='';
