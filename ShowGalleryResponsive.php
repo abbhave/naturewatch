@@ -140,7 +140,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 			$query.=' order by date DESC, imageid DESC LIMIT 1';
 			$result = mysqli_query($link,$query);
 			$i=0;
-			$resArr = mysqli_fetch_array($result,MYSQLI_ASSOC)
+			$resArr = mysqli_fetch_array($result,MYSQLI_ASSOC);
 			foreach ($resArr as $line_key => $line ) {
 				echo"Line=".$line;
 				$i++;
