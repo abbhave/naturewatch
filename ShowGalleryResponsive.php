@@ -141,6 +141,7 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 			$result = mysqli_query($link,$query);
 			$i=0;
 			while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+				echo"Line=".$line;
 				$i++;
 				$imageurl=$line['imagelink'];
 				$imageurl=str_ireplace("s144","s250",$imageurl);
