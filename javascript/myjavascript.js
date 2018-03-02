@@ -84,20 +84,20 @@
 			loadURL(divName,url,title);
 		}
 
-		function loadHTMLGallery(type,categ,pagenum)
+		function loadHTMLGallery(type,categ,name,pagenum)
 		{
 			//alert("In loadGallery");
 			divName="maindiv";
-			url="ShowGalleryResponsive.html?type="+type+"&categ="+categ+"&pagenum="+pagenum;
+			//url="ShowGalleryResponsive.html?type="+type+"&categ="+categ+"&pagenum="+pagenum;
 			title=categ+" Gallery";
 			//loadURL(divName,url,title);
 			$("#maindiv").empty();
 			$("#maindiv").load("ShowGalleryResponsive.html",function() {
-				loadShowGalleryPage(type,categ,pagenum);
+				loadShowGalleryPage(type,categ,name,pagenum);
 			}); 			
 		}
 		
-		function loadShowGalleryPage(type,categ,pagenum) {
+		function loadShowGalleryPage(type,categ,name,pagenum) {
 			/*var queryString = new Array();
 			if (queryString.length == 0) {
 				if (window.location.search.split('?').length > 1) {
@@ -119,10 +119,8 @@
 			var templateSpeciesSelect = Handlebars.compile(source);
 
 			// create some data
-			var dataSelect = {
-			  type:"speciesname",
-			  category:"Birds"
-			};
+			var dataSelectText='{"type":"speciesname","category":"Birds","speciesname":"'+name+'"}';
+			var dataSelect = JSON.parse(dataSelectText);
 
 			// generate HTML from the data
 			var htmlSelect    = templateSpeciesSelect(dataSelect);
@@ -131,9 +129,14 @@
 			$('#speciesselect').html(htmlSelect);
 
 
-			//get data by doing a webservice call
-			var showgalleryurl = "ShowGalleryResponsive.php?type=gallery&categ="+categ+"&action=specieslist&pagenum=1&TagName=&speciesname=&locationname=";
-			$.get(showgalleryurl, function(response) {
+			//get specieslist by doing a webservice call
+			var speciesname='';
+			var locationname='';
+			var tagname='';
+			if(type=='speciesname')
+				speciesname=name;
+			var showgalleryurl = "ShowGalleryResponsive.php?type=gallery&categ="+categ+"&action=specieslist&pagenum="+pagenum+"&TagName="+tagname+"&speciesname="+speciesname+"&locationname="+locationname;
+			$.get(showgalleryurl, function(response,name) {
 					var dataOptionArray=JSON.parse(response);
 					var htmlAllOptions="";
 					for (i = 0; i < dataOptionArray.length; i++) {
@@ -142,6 +145,8 @@
 						// compile the template so we can use it
 						var templateSpeciesList = Handlebars.compile(sourceSpeciesList);
 						var dataOption = dataOptionArray[i];
+						if(name==dataOption.encodedname)
+							dataOption.selected="selected";
 						// generate HTML from the data
 						var htmlSelectList    = templateSpeciesList(dataOption);
 						htmlAllOptions+=htmlSelectList;
@@ -152,20 +157,22 @@
 			   }).error(function(){
 			  alert("Sorry could not proceed");
 			});
-			
-			//get album data
-			var getAlbumUrl = "ShowGalleryResponsive.php?type=gallery&categ="+categ+"&action=categoryalbum&pagenum=1&TagName=&speciesname=&locationname=";
+
+			if(type=='speciesalbum')
+			{
+			//get species wise data
+			var getAlbumUrl = "ShowGalleryResponsive.php?type="+type+"&categ="+categ+"&action=speciesalbum&pagenum="+pagenum+"&TagName="+tagname+"&speciesname="+speciesname+"&locationname="+locationname;
 			$.get(getAlbumUrl, function(response) {
 					var dataOptionArray=JSON.parse(response);
 					var htmlAllOptions="";
 					for (i = 0; i < dataOptionArray.length; i++) {
-						var sourceSpeciesAlbum = $("#speciesalbum-template").html();
+						var sourcespeciesalbum = $("#speciesalbum-template").html();
 
 						// compile the template so we can use it
-						var templateSpeciesAlbum = Handlebars.compile(sourceSpeciesAlbum);
+						var templatespeciesalbum = Handlebars.compile(sourcespeciesalbum);
 						var dataOption = dataOptionArray[i];
 						// generate HTML from the data
-						var htmlSelectList    = templateSpeciesAlbum(dataOption);
+						var htmlSelectList    = templatespeciesalbum(dataOption);
 						htmlAllOptions+=htmlSelectList;
 					}
 					var idselect="#"+"speciesalbum";
@@ -174,6 +181,61 @@
 			   }).error(function(){
 			  alert("Sorry could not proceed");
 			});
+			}
+			else if(type=='gallery' || type=='speciesname'){
+			//get album data
+			var getAlbumUrl = "ShowGalleryResponsive.php?type="+type+"&categ="+categ+"&action=allPicAlbum&pagenum="+pagenum+"&TagName="+tagname+"&speciesname="+speciesname+"&locationname="+locationname;
+			$.get(getAlbumUrl, function(response) {
+					var dataOptionArray=JSON.parse(response);
+					var htmlAllOptions="";
+					for (i = 0; i < dataOptionArray.length; i++) {
+						var sourceallpicsalbum = $("#allpicsalbum-template").html();
+
+						// compile the template so we can use it
+						var templateallpicsalbum = Handlebars.compile(sourceallpicsalbum);
+						var dataOption = dataOptionArray[i];
+						// generate HTML from the data
+						var htmlSelectList    = templateallpicsalbum(dataOption);
+						htmlAllOptions+=htmlSelectList;
+					}
+					var idselect="#"+"speciesalbum";
+					// add the HTML to the content div
+					$(idselect).html(htmlAllOptions);
+			   }).error(function(){
+			  alert("Sorry could not proceed");
+			});
+			}
+			
+			//get album size
+			var getAlbumCount = "ShowGalleryResponsive.php?type="+type+"&categ="+categ+"&action=allPicAlbumSize&pagenum="+pagenum+"&TagName="+tagname+"&speciesname="+speciesname+"&locationname="+locationname;
+			$.get(getAlbumCount, function(response) {
+				//alert("Total Count = "+response);
+			});
+
+			// grab our template code from the DOM
+			var source   = $("#pagination-template").html();
+
+			// compile the template so we can use it
+			var templatePagination = Handlebars.compile(source);
+
+			// create some data
+			var prevpage= parseInt(pagenum) - 1;
+			if(pagenum==1)
+				var prevpage=parseInt(pagenum);
+			
+			var previousURL = "loadHTMLGallery('"+type+"','"+categ+"','','"+prevpage+"')";
+			
+			var nextPage = parseInt(pagenum) + 1;
+			var nextURL = "loadHTMLGallery('"+type+"','"+categ+"','','"+nextPage+"')";
+			
+			dataSelectText='{"currentpage":"'+pagenum+'","PreviousURL":"'+previousURL+'","NextURL":"'+nextURL+'"}';
+			var dataSelect = JSON.parse(dataSelectText);
+
+			// generate HTML from the data
+			var htmlSelect    = templatePagination(dataSelect);
+
+			// add the HTML to the content div
+			$('#pagination').html(htmlSelect);
 			
 		}
 		
@@ -233,6 +295,7 @@
 			$( "#imagedialog" ).dialog( {position: {my:"top", at:"top", of:window}} );
 			$('.ui-dialog').css("padding",0);
 			$('.ui-dialog-content').css("padding",0);
+			$('.ui-dialog-content').css("z-index",100);
 			$( "#imagedialog").dialog("option","width",900);
 			$( "#imagedialog" ).css("background-color","#000000");			
 			$( "#imagedialog" ).prev('.ui-dialog-titlebar').remove();
@@ -302,7 +365,10 @@
 		}
 		
 		var map=null;
-	        function initialize() {
+			function initializeImage(){
+				$("#map-canvas").load("coverImage.html"); 
+			}
+	        function initializeMap() {
 	          //alert("Inside initialize");
 	          var mapOptions = {
 	            center: new google.maps.LatLng(23.240000, 77.400000),
