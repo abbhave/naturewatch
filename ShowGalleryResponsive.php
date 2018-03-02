@@ -18,7 +18,7 @@ $speciesname=$_GET['speciesname'];
 $pagenumber = $_GET['pagenum'];
 $locationname = $_GET['locationname'];
 $action = $_GET['action'];
-echo "Action=".$action;
+//echo "Action=".$action;
 $returnjson="";
 if($action == 'specieslist')
 	$returnjson=getSpeciesList($link,$type,$category);
@@ -66,7 +66,7 @@ function getSpeciesListForAlbum($link,$type,$category,$offset=0,$count=-1)
 function getAllPicAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesize,$totalrecordsize=false)
 {
 	//$perPage=12;
-	echo "type=".$type."speciesname=".$speciesname;
+	//echo "type=".$type."speciesname=".$speciesname;
 	if($type == 'speciesname')
 		$query = createQueryOnType($type,$category,$speciesname,$totalrecordsize);
 	else if($type == 'tagname')
