@@ -18,7 +18,7 @@ $speciesname=$_GET['speciesname'];
 $pagenumber = $_GET['pagenum'];
 $locationname = $_GET['locationname'];
 $action = $_GET['action'];
-print_r("Action=".$action);
+echo "Action=".$action;
 $returnjson="";
 if($action == 'specieslist')
 	$returnjson=getSpeciesList($link,$type,$category);
