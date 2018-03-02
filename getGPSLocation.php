@@ -3,7 +3,7 @@
 	$link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123')
     	or die('Could not connect: ' . mysql_error());
 
-	//mysqli_select_db('alokbhav_abbhave') or die('Could not select database');
+	mysqli_select_db('alokbhav_natureinfo');
 	
 	$query="select LocationName,GPSLocation,LocationDescription from locationinfo";
 	
