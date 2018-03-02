@@ -143,6 +143,9 @@ function getSpeciesAlbum($link,$type,$category,$speciesname,$pagenumber,$pagesiz
 			echo "Query=".$query;
 			$result = mysqli_query($link,$query);
 			$i=0;			
+			$count1=mysqli_num_rows($result);
+			echo "Number of rows=".$count1;
+			if($count1==0) continue;
 			while ($line = mysqli_fetch_array($result,MYSQLI_ASSOC)) {				
 				$i++;
 				$imageurl=$line['imagelink'];
