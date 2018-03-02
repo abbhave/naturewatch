@@ -20,7 +20,7 @@ $action = $_GET['action'];
 if($action == 'specieslist')
 	$returnjson=getSpeciesList($type,$category);
 else if($action == 'categoryalbum')
-	$returnjson=getCategoryAlbum($type,$category);
+	$returnjson=getCategoryAlbum($link,$type,$category);
 
 function getSpeciesList($type,$category)
 {
@@ -36,7 +36,7 @@ function getSpeciesList($type,$category)
 	return $specieslist;
 }
 
-function getCategoryAlbum($type,$category)
+function getCategoryAlbum($link,$type,$category)
 {
 	$perPage=12;
 	if($type == 'speciesname')
