@@ -3,10 +3,11 @@
 <body>
 <?php
 include("phpFunction.php"); 
-$link = mysql_connect('localhost', 'alokbhav_abbhave', 'alokb123')
-    or die('Could not connect: ' . mysql_error());
-
-mysql_select_db('alokbhav_natureinfo') or die('Could not select database');
+$link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+}
+mysqli_select_db($link,'alokbhav_natureinfo');
 
 //save in history the current URL
 
@@ -23,9 +24,11 @@ $arrimageids=$_SESSION['arrimageidkey'];
 
 $query = 'SELECT ImageId,imagelink,locationname,date,commonname from '.$tablename.' where ImageId=' .$imageid;
 //$query.=$tablename;
-$result = mysql_query($query) or die('Query failed: ' . mysql_error());
+$result = mysqli_query($link,$query);
+$count1=mysqli_num_rows($result);
+if($count1==0) die('No results in query: ' . mysqli_error());
 
-$line = mysql_fetch_array($result, MYSQL_ASSOC);
+$line = mysqli_fetch_array($result, MYSQL_ASSOC);
 $url=$line['imagelink'];
 $url=str_ireplace("s144","s800",$url);
 //$title="<td align=\"left\">";
