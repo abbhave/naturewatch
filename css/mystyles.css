@@ -121,14 +121,14 @@
 		  clear: both;
 		}
 	}
-	@media (min-width: 1001px) and (max-width: 1199px) {
+	@media (min-width: 1001px) and (max-width: 1399px) {
 		.portfolio>.clear:nth-child(8n)::before {
 		  content: '';
 		  display: table;
 		  clear: both;
 		}
 	}
-	@media (min-width: 1200px) {
+	@media (min-width: 1400px) {
 		.portfolio>.clear:nth-child(12n)::before {  
 		  content: '';
 		  display: table;
