@@ -6,20 +6,23 @@
 </head>
 <body>
 <?php
-  $link = mysql_connect('localhost','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
-  $db = mysql_select_db($_GET['dbname']) or die('Could not connect to db: ' . mysql_error());
+  $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+  if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+  }
+  $db = mysqli_select_db($link,$_GET['dbname']) or die('Could not connect to db: ' . mysqli_error());
   $tablename=$_GET['tablename'];
   $dbname=$_GET['dbname'];
   echo "<label>Db Name</label>\t<input type=\"hidden\" name=\"dbname\" value=\"$dbname\" />$dbname<br>";
   echo "<label>Table Name</label>\t<input type=\"hidden\" name=\"tablename\" value=\"$tablename\"/>$tablename<br>";
   $query = "describe $tablename;";
-  $heading = mysql_query($query) or die('Query failed: ' . mysql_error());
+  $heading = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "Query successful\n";
   echo "<table border=\"1\">\n";
   echo "<tr>\n";
   $i=0;
   $coltitle=array();
-  while ($line = mysql_fetch_array($heading, MYSQL_NUM)) {
+  while ($line = mysqli_fetch_array($heading, MYSQLI_NUM)) {
 	  $coltitle[]=$line[0];
 	  $i++;
       echo "\t<td align=\"center\">$line[0]</td>";
@@ -27,12 +30,12 @@
   echo "</tr>\n";
 
   $query = "select * from $tablename;";
-  $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+  $result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "<tr>\n";
   echo "<form action=\"${tablename}Add.php\" method=\"post\">\n";
   echo "<input type=\"hidden\" name=\"dbname\" value=\"$dbname\" />";
   echo "<input type=\"hidden\" name=\"tablename\" value=\"$tablename\"/>";
-  $line = mysql_fetch_array($result, MYSQL_NUM);
+  $line = mysqli_fetch_array($result, MYSQLI_NUM);
   $cnt=count($line);
   echo $cnt;
   for($j=0;$j < $i;$j++)
@@ -53,7 +56,7 @@
       echo "<td><input type=\"submit\" name=\"Submit\" value=\"Edit\" /></td>";
       echo "</form>\n";
       echo "</tr>\n";
-  }while ($line = mysql_fetch_array($result, MYSQL_NUM)) ;
+  }while ($line = mysqli_fetch_array($result, MYSQLI_NUM)) ;
   echo "</table>\n";
 ?>
 </body>
