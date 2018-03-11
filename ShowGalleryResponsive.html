@@ -77,8 +77,9 @@ $(function(){
 
 <script id="speciesalbum-template" type="text/x-handlebars-template">
 	  <div class="col-xs-6 col-md-3 col-lg-2 vcenter">
-		<a onclick="loadImage('abc','{{category}}','{{speciesname}}','{{imageid}}','0')" onmouseover="showHand(this)" style="cursor: pointer;"><img class="photos_list" alt="{{speciesname}}" border="0" src="{{imageurl}}"/></a>
-					<a style='color: #5e5eff;' onClick="loadHTMLGallery('speciesname','{{category}}','{{speciesname}}','1')" onmouseover='showHand(this)'>{{speciesname}}</a>
+		<!--<a onclick="loadImage('abc','{{category}}','{{speciesname}}','{{imageid}}','0')" onmouseover="showHand(this)" style="cursor: pointer;"><img class="photos_list" alt="{{speciesname}}" border="0" src="{{imageurl}}"/></a> -->
+		<a class="highslide" onclick="return hs.expand(loadImage('abc','{{category}}','{{speciesname}}','{{imageid}}','0'))" onmouseover="showHand(this)" style="cursor: pointer;"><img class="photos_list" alt="{{speciesname}}" border="0" src="{{imageurl}}"/></a>
+		<a style='color: #5e5eff;' onClick="loadHTMLGallery('speciesname','{{category}}','{{speciesname}}','1')" onmouseover='showHand(this)'>{{speciesname}}</a>
 	  </div> <!-- / col -->
 	  <div class="clear"></div>
 </script>
