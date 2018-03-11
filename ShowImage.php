@@ -25,7 +25,7 @@ $arrimageids=$_SESSION['arrimageidkey'];
 $query = 'SELECT ImageId,imagelink,locationname,date,commonname from '.$tablename.' where ImageId=' .$imageid;
 //$query.=$tablename;
 $result = mysqli_query($link,$query);
-$count1=mysqli_num_rows($link,$result);
+$count1=mysqli_num_rows($result);
 if($count1==0) die('No results in query: ' . mysqli_error());
 
 $line = mysqli_fetch_array($result, MYSQL_ASSOC);
