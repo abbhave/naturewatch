@@ -6,11 +6,14 @@
 </head>
 <body>
 <?php
-  $link = mysqli_connect('localhost','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
-  $db = mysqli_select_db($_GET['dbname']) or die('Could not connect to db: ' . mysqli_error());
+  $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+  if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+  }
+  $db = mysqli_select_db($link,$_GET['dbname']) or die('Could not connect to db: ' . mysqli_error());
   $dbname = $_GET['dbname'];
   $query = 'show tables' ;
-  $result = mysqli_query($query) or die('Query failed: ' . mysqli_error());
+  $result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "Query successful\n";
   echo "<table>\n";
   while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
