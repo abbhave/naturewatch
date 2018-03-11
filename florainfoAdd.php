@@ -4,8 +4,11 @@
 <META content="MSHTML 6.00.6000.16711" name=GENERATOR></HEAD>
 <BODY>
 <?php
-    $link = mysql_connect('localhost','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
-    $db = mysql_select_db($_POST['dbname']) or die('Could not connect to db: ' . mysql_error());
+    $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+    if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+    }
+    $db = mysqli_select_db($link,$_POST['dbname']) or die('Could not connect to db: ' . mysqli_error());
     $tablename=$_POST['tablename'];
     $query = "Insert into $tablename SET ";
     $i=0;
@@ -21,10 +24,10 @@
   }
   //$query=$query. " where $tablename.Name=\"Weaver\"";
   echo "<br>$query<br>";
-  $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+  $result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "Query Successful<br>";
   print_r($result);
-  /*while ($line = mysql_fetch_array($result, MYSQL_NUM)) {
+  /*while ($line = mysqli_fetch_array($result, MYSQLI_NUM)) {
 	  print_r($line);
   } */ 
 ?>
