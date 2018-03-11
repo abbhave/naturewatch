@@ -6,8 +6,11 @@
 </head>
 <body>
 <?php
-  $link = mysql_connect('localhost','alokbhav_abbhave','alokb123') or die('Could no connect: ' . mysql_error());
-  $db = mysql_select_db('alokbhav_natureinfo') or die('Could not connect to db: ' . mysql_error());
+  $link = mysqli_connect('mysql:3306','alokbhav_abbhave','alokb123');
+  if(! $link ) {
+      die('Could not connect: ' . mysqli_error());
+  }
+  $db = mysqli_select_db($link,'alokbhav_natureinfo') or die('Could not connect to db: ' . mysqli_error());
   $tablename='ImageInfo';
   $idTable=$_GET['idTable'];
   //Jan 2010 for adding tags
@@ -16,7 +19,7 @@
   echo "<label>Db Name</label>\t<input type=\"hidden\" name=\"dbname\" value=\"$dbname\" />$dbname<br>";
   echo "<label>Table Name</label>\t<input type=\"hidden\" name=\"tablename\" value=\"$tablename\"/>$tablename<br>";
   $query = "describe $tablename;";
-  $heading = mysql_query($query) or die('Query failed: ' . mysql_error());
+  $heading = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "Query successful\n";
   echo "<table name=\"ImageTable\" id=\"ImageTable\"border=\"1\">\n";
   echo "<tr>\n";
@@ -27,17 +30,17 @@
   //else
     $entityIdCol='CommonName';
   $idNameQuery="select CommonName from $idTable;";
-  $idNameResult = mysql_query($idNameQuery) or die('Query failed: ' . mysql_error());
+  $idNameResult = mysqli_query($link,$idNameQuery) or die('Query failed: ' . mysqli_error());
 
   $idLocationQuery="select LocationName from locationinfo;";
-  $idLocationResult = mysql_query($idLocationQuery) or die('Query failed: ' . mysql_error());
+  $idLocationResult = mysqli_query($link,$idLocationQuery) or die('Query failed: ' . mysqli_error());
   //echo "\t<td align=\"center\">CommonName</td>";
   
   //image tag query Jan 2010
   $idTagQuery="select TagName from $tagTable order by TagName;";
-  $idTagResult = mysql_query($idTagQuery) or die('Query failed: ' . mysql_error());
+  $idTagResult = mysqli_query($link,$idTagQuery) or die('Query failed: ' . mysqli_error());
 
-  while ($line = mysql_fetch_array($heading, MYSQL_NUM)) {
+  while ($line = mysqli_fetch_array($heading, MYSQLI_NUM)) {
 	  $coltitle[]=$line[0];
 	  $i++;
       echo "\t<td align=\"center\">$line[0]</td>";
@@ -53,7 +56,7 @@
   {
 	  $query = "select * from $tablename where Tag IS NULL;";
   }
-  $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+  $result = mysqli_query($link,$query) or die('Query failed: ' . mysqli_error());
   echo "<tr name=\"add\">\n";
   $nameidhash=array();
   //echo "<td name=\"CommonName\"><select onchange=\"javascript:fillId(this,this.options[this.selectedIndex].value)\" name=\"CommonName\">";
@@ -62,7 +65,7 @@
   echo "<form action=\"${tablename}Add.php\" method=\"post\">\n";
   echo "<input type=\"hidden\" name=\"dbname\" value=\"$dbname\" />";
   echo "<input type=\"hidden\" name=\"tablename\" value=\"$tablename\"/>";
-  $line = mysql_fetch_array($result, MYSQL_NUM);
+  $line = mysqli_fetch_array($result, MYSQLI_NUM);
   $cnt=count($line);
   echo "count without tag $cnt";
   for($j=0;$j < $i;$j++)
@@ -70,7 +73,7 @@
     {
 	  echo "\t<td name=\"CommonName\"><select name=\"$entityIdCol\">";
 	  $count=0;
-	  while($idArr = mysql_fetch_array($idNameResult, MYSQL_BOTH)){  
+	  while($idArr = mysqli_fetch_array($idNameResult, MYSQLI_BOTH)){  
 		  $commonname=$idArr['CommonName'];
 		  $entityid=$idArr[$entityIdCol];
 		  echo $idArr[$entityIdCol];
@@ -83,7 +86,7 @@
     {
 	  echo "\t<td name=\"LocationName\"><select name=\"LocationName\">";
 	  $count=0;
-	  while($idLocArr = mysql_fetch_array($idLocationResult, MYSQL_BOTH)){  
+	  while($idLocArr = mysqli_fetch_array($idLocationResult, MYSQLI_BOTH)){  
 		  $locationname=$idLocArr['LocationName'];
 		  $locationid=$idLocArr['LocationName'];
 		  echo $idLocArr['LocationName'];
@@ -99,7 +102,7 @@
 	  $count=0;
 	  //add a blank option Jan 29 2010
 	  echo "<option value=\"\"></option>";
-	  while($idLocArr = mysql_fetch_array($idTagResult, MYSQL_BOTH)){  
+	  while($idLocArr = mysqli_fetch_array($idTagResult, MYSQLI_BOTH)){  
 		  $tagname=$idLocArr['TagName'];
 		  $tagid=$idLocArr['TagName'];
 		  echo $idLocArr['TagName'];
@@ -129,8 +132,8 @@
 		  $count=0;
 		  //add a blank option Jan 29 2010
 		  echo "<option value=\"\"></option>";
-		  mysql_data_seek($idTagResult,0) ;
-		  while($idLocArr = mysql_fetch_array($idTagResult, MYSQL_BOTH)){  
+		  mysqli_data_seek($idTagResult,0) ;
+		  while($idLocArr = mysqli_fetch_array($idTagResult, MYSQLI_BOTH)){  
 			  $tagname=$idLocArr['TagName'];
 			  $tagid=$idLocArr['TagName'];
 			  echo $idLocArr['TagName'];
@@ -144,7 +147,7 @@
       echo "<td><input type=\"submit\" name=\"Submit\" value=\"Edit\" /></td>";
       echo "</form>\n";
       echo "</tr>\n";
-  }while ($line = mysql_fetch_array($result, MYSQL_NUM)) ;
+  }while ($line = mysqli_fetch_array($result, MYSQLI_NUM)) ;
   echo "</table>\n";
 ?>
 <script type="text/javascript">
